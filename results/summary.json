@@ -1,0 +1,45 @@
+{
+  "rows": 12256906,
+  "users": 10000,
+  "items": 2876947,
+  "categories": 8916,
+  "first_day": "2014-11-18",
+  "last_day": "2014-12-18",
+  "behavior_events": {
+    "browse": 11550581,
+    "favorite": 242556,
+    "cart": 343564,
+    "purchase": 120205
+  },
+  "data_limits": [
+    "sampled users",
+    "hourly time precision",
+    "no order value",
+    "no traffic exposure",
+    "no experimental assignment"
+  ],
+  "repeat_within_observation_window": {
+    "purchase_users": 8886,
+    "users_with_2plus_purchase_events": 8148,
+    "users_with_2plus_purchase_days": 7746,
+    "distinct_purchase_user_item_days": 106119
+  },
+  "same_five_fields_extra_rows_preserved": {
+    "total": 6043527,
+    "by_behavior": {
+      "browse": 6014702,
+      "favorite": 3084,
+      "cart": 12214,
+      "purchase": 13527
+    },
+    "interpretation": "Hourly timestamps cannot distinguish repeated actions from duplicate extraction. Rows were preserved."
+  },
+  "purchase_user_item_pairs": 102996,
+  "cart_pair_followup": {
+    "cart_user_item_pairs": 215401,
+    "purchased_later_by_day7": 17842,
+    "same_hour_purchase_unknown_order": 26134,
+    "later_or_same_hour_purchase": 43379
+  },
+  "segment_cutoff": "2014-12-03"
+}
